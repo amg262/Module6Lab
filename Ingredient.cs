@@ -6,21 +6,21 @@ namespace Module6Lab
     {
         private string desc;
         private string measurement;
-        private int qty;
+        private double qty;
 
-        public Ingredient(int qty = default, string measurement = null, string desc = null)
+        public Ingredient(double qty = default, string measurement = null, string desc = null)
         {
             this.qty = qty;
             this.measurement = measurement;
             this.desc = desc;
         }
 
-        public int GetQty()
+        public double GetQty()
         {
             return this.qty;
         }
 
-        public void SetQty(int qty)
+        public void SetQty(double qty)
         {
             this.qty = qty;
         }
@@ -43,6 +43,11 @@ namespace Module6Lab
         public void SetDesc(string desc)
         {
             this.desc = desc;
+        }
+
+        public string Print()
+        {
+            return $"{qty} {measurement} of {desc}";
         }
     }
 }
