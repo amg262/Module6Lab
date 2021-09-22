@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Module6Lab
 {
@@ -6,23 +7,30 @@ namespace Module6Lab
     {
         static void Main(string[] args)
         {
-     
+  
+            List<Ingredient> ings = new List<Ingredient>();
 
-            Console.WriteLine("Qty: ");
-            Int32.TryParse(Console.ReadLine(), out int qty);
-            Console.WriteLine("Measure: ");
-            string meas = Console.ReadLine();
-            Console.WriteLine("Desc");
-            string desc = Console.ReadLine();
-            Ingredient ing = new Ingredient(qty, meas, desc);
+            string desc;
+            do
+            {
+                Console.WriteLine("Ingrdient (NA when done)");
+                desc = Console.ReadLine();
 
-            Console.WriteLine(ing.Print());
-            // Console.WriteLine(ing.GetDesc());
-            // Console.WriteLine(ing.GetMeasurement());
-            // Console.WriteLine(ing.GetQty());
-            //
-            
-            
+                if (desc.ToUpper() != "NA")
+                {
+                    Console.WriteLine("Qty: ");
+                    Int32.TryParse(Console.ReadLine(), out int qty);
+                    Console.WriteLine("Measure: ");
+                    string meas = Console.ReadLine();
+
+                    ings.Add(new Ingredient(qty, meas, desc));
+                }
+            } while (desc.ToUpper() != "NA");
+
+            foreach (var i in ings)
+            {
+                Console.WriteLine($"{i.Print()}");
+            }
         }
     }
 }

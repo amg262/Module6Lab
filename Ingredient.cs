@@ -25,6 +25,11 @@ namespace Module6Lab
             this.qty = qty;
         }
 
+        public void SetQty(int qty)
+        {
+            this.qty = qty;
+        }
+        
         public string GetMeasurement()
         {
             return this.measurement;
