@@ -7,7 +7,6 @@
     <list default="true" id="8314366d-9d8b-4132-85a2-120074a540e2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Module6Lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Module6Lab/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recipe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Recipe.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -74,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632330913282</updated>
       <workItem from="1632330917139" duration="6293000" />
-      <workItem from="1632618345578" duration="3992000" />
+      <workItem from="1632618345578" duration="5071000" />
     </task>
     <servers />
   </component>
@@ -99,76 +99,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>46</line>
-          <properties documentPath="C:\Users\Andy\RiderProjects\Module6Lab\Module6Lab\Program.cs" initialLine="46" containingFunctionPresentation="method 'EnterRecipe'">
-            <startOffsets>
-              <option value="1597" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1598" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>43</line>
-          <properties documentPath="C:\Users\Andy\RiderProjects\Module6Lab\Module6Lab\Program.cs" initialLine="43" containingFunctionPresentation="method 'EnterRecipe'">
-            <startOffsets>
-              <option value="1529" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1549" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>49</line>
-          <properties documentPath="C:\Users\Andy\RiderProjects\Module6Lab\Module6Lab\Program.cs" initialLine="49" containingFunctionPresentation="method 'EnterRecipe'">
-            <startOffsets>
-              <option value="1651" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1682" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>56</line>
-          <properties documentPath="C:\Users\Andy\RiderProjects\Module6Lab\Module6Lab\Program.cs" initialLine="56" containingFunctionPresentation="method 'EnterRecipe'">
-            <startOffsets>
-              <option value="1893" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1931" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>53</line>
-          <properties documentPath="C:\Users\Andy\RiderProjects\Module6Lab\Module6Lab\Program.cs" initialLine="53" containingFunctionPresentation="method 'EnterRecipe'">
-            <startOffsets>
-              <option value="1762" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1799" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
