@@ -15,40 +15,24 @@ namespace Module6Lab
             this.desc = desc;
         }
 
-        public double GetQty()
+        public string Desc
         {
-            return this.qty;
+            get => desc;
+            set => desc = value;
         }
 
-        public void SetQty(double qty)
+        public string Measurement
         {
-            this.qty = qty;
+            get => measurement;
+            set => measurement = value;
         }
 
-        public void SetQty(int qty)
+        public double Qty
         {
-            this.qty = qty;
-        }
-        
-        public string GetMeasurement()
-        {
-            return this.measurement;
+            get => qty;
+            set => qty = value;
         }
 
-        public void SetMeasurement(string measurment)
-        {
-            this.measurement = measurment;
-        }
-
-        public string GetDesc()
-        {
-            return this.desc;
-        }
-
-        public void SetDesc(string desc)
-        {
-            this.desc = desc;
-        }
 
         public string Print()
         {
