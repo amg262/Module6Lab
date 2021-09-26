@@ -21,7 +21,7 @@ namespace Module6Lab
                 {
                     Recipe recipe = new Recipe();
                     recipe.Name = recipeName;
-
+                    
                     do
                     {
                         Console.WriteLine("Ingredient (NA when done)>");
@@ -33,8 +33,6 @@ namespace Module6Lab
 
                             Console.WriteLine("Quantity:");
                             Double.TryParse(Console.ReadLine(), out double quan);
-
-
                             Console.WriteLine("Measurement");
                             string measure = Console.ReadLine();
 
@@ -43,36 +41,38 @@ namespace Module6Lab
 
                         recipe.Ingredients = ingredients;
                     } while (ingredientName.ToUpper() != "NA");
+                    recipes.Add(recipe);
                 }
+                
             } while (recipeName.ToUpper() != "NA");
-        }
 
+
+            foreach (var recipe in recipes)
+            {
+                Console.WriteLine(recipe.Name);
+
+                foreach (var i in recipe.Ingredients)
+                {
+                    var ingredient = new Ingredient();
+                    Console.WriteLine(ingredient.Print());
+                }
+            }
+            
+        }
+        public void Print()
+        {
+
+            
+            
+                
+        }
 
         static void Main(string[] args)
         {
-            List<Ingredient> ings = new List<Ingredient>();
 
-            string desc;
-            do
-            {
-                Console.WriteLine("Ingrdient (NA when done)");
-                desc = Console.ReadLine();
+            Program p = new Program();
+            p.EnterRecipe();
 
-                if (desc.ToUpper() != "NA")
-                {
-                    Console.WriteLine("Qty: ");
-                    Int32.TryParse(Console.ReadLine(), out int qty);
-                    Console.WriteLine("Measure: ");
-                    string meas = Console.ReadLine();
-
-                    ings.Add(new Ingredient(qty, meas, desc));
-                }
-            } while (desc.ToUpper() != "NA");
-
-            foreach (var i in ings)
-            {
-                Console.WriteLine($"{i.Print()}");
-            }
         }
 
         // static void Main2(string[] args)

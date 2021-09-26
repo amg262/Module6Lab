@@ -27,5 +27,10 @@ namespace Module6Lab
             get => ingredients;
             set => ingredients = value;
         }
+
+        public void Print()
+        {
+            
+        }
     }
 }
