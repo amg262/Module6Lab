@@ -30,7 +30,6 @@ namespace Module6Lab
 
         public void Print()
         {
-            
         }
     }
 }

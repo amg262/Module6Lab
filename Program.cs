@@ -14,7 +14,7 @@ namespace Module6Lab
 
             do
             {
-                Console.WriteLine("Enter Recipe Name");
+                Console.Write("Enter Recipe Name (NA when done): ");
                 recipeName = Console.ReadLine();
 
                 if (recipeName.ToUpper() != "NA")
@@ -24,16 +24,16 @@ namespace Module6Lab
 
                     do
                     {
-                        Console.WriteLine("Ingredient (NA when done)>");
+                        Console.Write("Ingredient (NA when done): ");
                         ingredientName = Console.ReadLine();
 
                         if (ingredientName.ToUpper() != "NA")
                         {
                             Ingredient ingredient = new Ingredient();
 
-                            Console.WriteLine("Quantity:");
+                            Console.Write("Quantity: ");
                             Double.TryParse(Console.ReadLine(), out double quan);
-                            Console.WriteLine("Measurement");
+                            Console.Write("Measurement: ");
                             string measure = Console.ReadLine();
 
                             ingredients.Add(new Ingredient(quan, measure, ingredientName));
@@ -48,7 +48,8 @@ namespace Module6Lab
 
             foreach (Recipe recipe in recipes)
             {
-                Console.WriteLine(recipe.Name);
+                Console.WriteLine();
+                Console.WriteLine($"-------- {recipe.Name.ToUpper()} --------");
 
                 foreach (Ingredient i in recipe.Ingredients)
                 {
