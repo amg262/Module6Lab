@@ -1,35 +1,23 @@
 ﻿using System.Collections.Generic;
-using System.ComponentModel;
 
 namespace Module6Lab
 {
     public class Recipe
     {
-        private string name;
-
-        private List<Ingredient> ingredients;
-
-
         public Recipe(string name = null, List<Ingredient> ingredients = null)
         {
-            this.name = name;
-            this.ingredients = ingredients;
+            this.Name = name;
+            this.Ingredients = ingredients;
         }
 
-        public string Name
+        public string Name { get; set; }
+
+        public List<Ingredient> Ingredients { get; set; }
+
+        public override string ToString()
         {
-            get => name;
-            set => name = value;
+            return $"{Name} - {Ingredients.ToString()}";
         }
 
-        public List<Ingredient> Ingredients
-        {
-            get => ingredients;
-            set => ingredients = value;
-        }
-
-        public void Print()
-        {
-        }
     }
 }

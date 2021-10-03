@@ -53,7 +53,7 @@ namespace Module6Lab
 
                 foreach (Ingredient i in recipe.Ingredients)
                 {
-                    Console.WriteLine(i.Print());
+                    Console.WriteLine(i);
                 }
             }
         }
