@@ -8,13 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8314366d-9d8b-4132-85a2-120074a540e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dessert.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entree.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Module6Lab/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Module6Lab/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Module6Lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Module6Lab/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ingredient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Ingredient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recipe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Recipe.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dessert.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dessert.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entree.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +81,7 @@
       <workItem from="1632618345578" duration="9554000" />
       <workItem from="1632699990698" duration="1375000" />
       <workItem from="1632942052613" duration="668000" />
-      <workItem from="1633290195192" duration="445000" />
+      <workItem from="1633290195192" duration="562000" />
     </task>
     <servers />
   </component>
